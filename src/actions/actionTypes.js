@@ -1,0 +1,14 @@
+import { createTypes } from 'reduxsauce';
+
+export default createTypes(`
+  SET_NETWORK_STATE
+  SET_SPINNER_VISIBLE
+  SET_RADIOS
+  SET_RADIOS_PAGE
+  SET_GENRES
+  SET_GENRE_IDS
+  SET_LOCATIONS
+  SET_DETAIL
+  SET_RADIO_ID
+  SET_PLAYER_STATUS
+`);
